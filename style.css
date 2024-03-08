@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap');
+
+  
+/*=======================================
+INDEX OF
+========
+1) BASIC
+2) CALCULATOR
+========================================*/
+
+
+/*=======================================
+1) BASIC
+========================================*/
+
+body{
+    font-family: 'poppins', sans-serif;
+    
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    
+}
+
+:root{
+    --main-color:#242F51
+}
+
+/*=======================================
+2) CALCULATOR
+========================================*/
+.heading_title{
+    width: 280px;
+    
+    background-color: #2e20ad;
+    margin: 0 auto;
+    margin-top: 100px !important;
+    padding: 5px;
+    border: 2px solid #e8e8e8;
+    border-radius: 25px;
+}
+.heading_title h1{
+    font-size: 25px;
+    text-align: center;
+    color: #ffc400;
+}
+#calculator{
+    width: 280px;
+    height: 340px;
+    background-color: #e8e8e8;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #777;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+
+}
+.main-bar{
+    margin-bottom: 20px;
+    text-align: right;
+}
+.btn{
+    width: 60px;
+    
+    font-size: 20px;
+    text-align: center;
+}
+.btn:hover{
+    border: none;
+}
+.btn:active{
+    border: none;
+}
+.line{
+    margin-bottom: 10px;
+}
+.last input{
+    width: 126px;
+}
+#inp{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
